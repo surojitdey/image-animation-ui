@@ -1,0 +1,133 @@
+.sider {
+    background: #1b1c1e !important;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; */
+    /* flex-shrink: 0; */
+    width: 11.2rem !important;
+    flex: 0 0 208px !important;
+    max-width: 13rem !important;
+    min-width: 13rem !important;
+    transition: width 0.3s ease-in-out 0s;
+    padding-inline: 1rem;
+}
+
+.logo {
+    /* margin-inline-start: 1.2rem; */
+    align-self: flex-start;
+}
+
+.logo_img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 17px;
+}
+
+.menu {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    min-height: 5rem;
+}
+
+.menu_button {
+    /* padding-inline-start: 1rem; */
+    background-color: transparent;
+    border: none;
+    color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.sidebar_button {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border: none;
+    padding: 0px;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    /* gap: 1rem; */
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: -0.02em;
+    color: rgb(216, 216, 216);
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.sidebar_button_icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+.sidebar_button_icon::after {
+    content: "";
+    display: block;
+    /* background-color: rgb(255, 254, 253); */
+    background-image: url("https://studio.d-id.com/assets/create-f2ecd8e4.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hr {
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    height: 0.1rem !important;
+    min-height: 0.1rem !important;
+}
+
+.bottom_section {
+    width: 100%;
+    flex: 0 0 14rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    padding-inline: 1rem;
+}
+
+.plus, .library {
+    padding-inline: 8px;
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.pricing {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.menu_button:hover .plus, .library {
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+    color: #1b1c1e;
+}
+
+.button_text {
+    font-size: 1rem;
+}
